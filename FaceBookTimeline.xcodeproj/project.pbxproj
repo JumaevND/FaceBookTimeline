@@ -7,19 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42750BF925C85F9E0039DF92 /* NewPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42750BF825C85F9E0039DF92 /* NewPost.swift */; };
 		42C7717A25C7DE480080F80C /* FaceBookTimelineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C7717925C7DE480080F80C /* FaceBookTimelineApp.swift */; };
-		42C7717C25C7DE480080F80C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C7717B25C7DE480080F80C /* ContentView.swift */; };
 		42C7717E25C7DE490080F80C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42C7717D25C7DE490080F80C /* Assets.xcassets */; };
 		42C7718125C7DE490080F80C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42C7718025C7DE490080F80C /* Preview Assets.xcassets */; };
+		42C7718B25C7DE5C0080F80C /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C7718A25C7DE5C0080F80C /* HomeScreen.swift */; };
+		42C7719325C8093C0080F80C /* PostItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C7719225C8093C0080F80C /* PostItem.swift */; };
+		42C7719725C809460080F80C /* StoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C7719625C809460080F80C /* StoryItem.swift */; };
+		42C7719A25C809500080F80C /* RoomItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C7719925C809500080F80C /* RoomItem.swift */; };
+		42C7719E25C81C0F0080F80C /* CreateRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C7719D25C81C0F0080F80C /* CreateRoom.swift */; };
+		42C771A225C824BE0080F80C /* CreateStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C771A125C824BE0080F80C /* CreateStory.swift */; };
+		42C771A625C845AB0080F80C /* UpdaatePostItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C771A525C845AB0080F80C /* UpdaatePostItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42750BF825C85F9E0039DF92 /* NewPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPost.swift; sourceTree = "<group>"; };
 		42C7717625C7DE480080F80C /* FaceBookTimeline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceBookTimeline.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42C7717925C7DE480080F80C /* FaceBookTimelineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceBookTimelineApp.swift; sourceTree = "<group>"; };
-		42C7717B25C7DE480080F80C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		42C7717D25C7DE490080F80C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42C7718025C7DE490080F80C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		42C7718225C7DE490080F80C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42C7718A25C7DE5C0080F80C /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		42C7719225C8093C0080F80C /* PostItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostItem.swift; sourceTree = "<group>"; };
+		42C7719625C809460080F80C /* StoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryItem.swift; sourceTree = "<group>"; };
+		42C7719925C809500080F80C /* RoomItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomItem.swift; sourceTree = "<group>"; };
+		42C7719D25C81C0F0080F80C /* CreateRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRoom.swift; sourceTree = "<group>"; };
+		42C771A125C824BE0080F80C /* CreateStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateStory.swift; sourceTree = "<group>"; };
+		42C771A525C845AB0080F80C /* UpdaatePostItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdaatePostItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +66,9 @@
 		42C7717825C7DE480080F80C /* FaceBookTimeline */ = {
 			isa = PBXGroup;
 			children = (
+				42C7719125C809230080F80C /* cells */,
 				42C7717925C7DE480080F80C /* FaceBookTimelineApp.swift */,
-				42C7717B25C7DE480080F80C /* ContentView.swift */,
+				42C7718A25C7DE5C0080F80C /* HomeScreen.swift */,
 				42C7717D25C7DE490080F80C /* Assets.xcassets */,
 				42C7718225C7DE490080F80C /* Info.plist */,
 				42C7717F25C7DE490080F80C /* Preview Content */,
@@ -67,6 +82,20 @@
 				42C7718025C7DE490080F80C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		42C7719125C809230080F80C /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				42C7719625C809460080F80C /* StoryItem.swift */,
+				42C771A125C824BE0080F80C /* CreateStory.swift */,
+				42C7719925C809500080F80C /* RoomItem.swift */,
+				42C7719D25C81C0F0080F80C /* CreateRoom.swift */,
+				42C7719225C8093C0080F80C /* PostItem.swift */,
+				42C771A525C845AB0080F80C /* UpdaatePostItem.swift */,
+				42750BF825C85F9E0039DF92 /* NewPost.swift */,
+			);
+			path = cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +167,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42C7717C25C7DE480080F80C /* ContentView.swift in Sources */,
+				42C7719325C8093C0080F80C /* PostItem.swift in Sources */,
+				42C771A625C845AB0080F80C /* UpdaatePostItem.swift in Sources */,
+				42C7719A25C809500080F80C /* RoomItem.swift in Sources */,
+				42C7719E25C81C0F0080F80C /* CreateRoom.swift in Sources */,
+				42C7718B25C7DE5C0080F80C /* HomeScreen.swift in Sources */,
+				42C771A225C824BE0080F80C /* CreateStory.swift in Sources */,
+				42C7719725C809460080F80C /* StoryItem.swift in Sources */,
+				42750BF925C85F9E0039DF92 /* NewPost.swift in Sources */,
 				42C7717A25C7DE480080F80C /* FaceBookTimelineApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
